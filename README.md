@@ -18,9 +18,9 @@ C S 313E
 There are 4 parameters that need to be changed here
 
 PATH: This will be the path to your chrome webdriver, which can be installed here https://chromedriver.chromium.org/downloads
-COURSE_WEBSITE: This is the link to the semester course schedule 
-USERNAME: Your UT EID
-PASWORD: Your password
+COURSE_WEBSITE: This is the link to the semester course schedule   
+USERNAME: Your UT EID  
+PASWORD: Your password  
 
 After these are filled out, ensure that all the required libraries are installed, and it should be ready to run. Everything will be automated besides the Duo Mobile Verification. The output will be saved into an excel file named output.xlsx
 
