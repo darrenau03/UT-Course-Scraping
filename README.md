@@ -1,12 +1,12 @@
 # UT Course Scraping
 
 
-This is a python script created to parse through a set of class names at UT Austin, search them up in the course registration webpage, and output that information onto an excel spreadsheet. This will be primarily useful for those hoping to constantly check the status of classes, as it remove the need to manually search up each class individually.
+This is a python script created to parse through a set of class names at UT Austin, search them up in the course registration webpage, and output that information onto an excel spreadsheet. This will be primarily useful for those hoping to constantly check the status of classes, as it removes the need to search up each class individually manually.
 
 ##### courses.txt
 This is the file the script reads the list of classes to search up
 
-Example formating:
+Example formatting:
 ```
 M 427J
 M 427L
@@ -15,12 +15,12 @@ C S 313E
 ```
 
 ##### course listing.py
-There are 4 parameters that need to be changed here
+There are four parameters that need to be changed here
 
-PATH: This will be the path to your chrome webdriver, which can be installed here https://chromedriver.chromium.org/downloads
+PATH: This will be the path to your chrome web driver, which can be installed here https://chromedriver.chromium.org/downloads
 COURSE_WEBSITE: This is the link to the semester course schedule   
 USERNAME: Your UT EID  
-PASWORD: Your password  
+PASSWORD: Your password  
 
 After these are filled out, ensure that all the required libraries are installed, and it should be ready to run. Everything will be automated besides the Duo Mobile Verification. The output will be saved into an excel file named output.xlsx
 
